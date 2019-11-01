@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>BIM321</title>
-    <STYLE>
-        H1{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 800%;
-        }
+  <meta charset="utf-8">
+  <title>BIM321</title>
+  <link href="C:\Users\DELL\Documents\GitHub\Website\website.css" rel="stylesheet" type="text/css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
-    </STYLE>
+</style>
 </head>
-
 <body>
-    <H1>Dance</H1>
-    <p>
-        Dance has been an essential piece of function, customs, festivities and amusement since before the introduction
-        of the most punctual human civic establishments. Numerous contemporary move structures can be followed back to
-        recorded, conventional, stylist, and ethnic moves of the antiquated period. Many dances of the early periods
-        were performed to celebrate festivals, on important or seasonal occasions such as crop harvest, or births and
-        weddings. Ritual dances may also be performed in temples and during religious festivals like Indian classical
-        dance, Cham dance of Tibet, Cultural dance of Nepal etc. There are lots of forms of dance spread  whole over the
-        world. Bhangra, Ballet, Folk, Contemporary, Aerial, Belly, Hip pop, Break dance, Salsa are some of the famous
-        dance forms.
-         My point of view towards dance is, It is beautiful form of art that helps you to express yourself without
-        saying a word. If I connect dance with my personal life, I was very young when I saw people dancing in different
-        ways ( different forms) which I love to view. I used to enjoy the music and movement but till then i hadn't
-        practised it. while I was in my higher secondary level, my classmates were preparing some dance for following
-        event.seeing them practising I used to try some steps and my dance teacher saw that. He called me towards and
-        asked me to copy some steps after him. With nervousness in my face I was able to do that which gift me a chance
-        to perform in an upcoming event but I was so  nervous that I deny first then finally me along with my group were
-        ready to preform in front of a mass. After my performance I was able to collect so many good comments ,
-        advises and suggestion because of which I was inspired to open this website. Through this website, I wanna
-        show world that every person is able to express themselves through dance.
-    </p>
 
+<h3>Contact Form</h3>
 
-    <a href="style.html"> FORMS OF DANCE  </a>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 </body>
 </html>
-
