@@ -136,7 +136,7 @@ body {
             font-size: smaller;
          }
          img {
-            resize: 50%;
+            resize: initial;
          }
       }
        @media only screen and (min-width: 320px) and (max-width: 568px) {
