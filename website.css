@@ -67,7 +67,7 @@ body {
 
     div.desc {
         padding: 15px;
-        text-align: left;
+        text-align: center;
     }
     input[type=text], select, textarea {
         width: 100%;
@@ -143,11 +143,17 @@ body {
           body {
              background-color: darkmagenta;
          }
+         img {
+            width: 100%; height: auto;
+         }
       }
        @media only screen and (min-width: 2160px) and (max-width: 3840px) {
           body {
              background-color: darkseagreen;
           }
+          img {
+             width:100%; height:auto;
+         }
 
       }
              
