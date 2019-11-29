@@ -98,6 +98,7 @@ body {
         background-color: #f2f2f2;
         padding: 20px;
       }
+
        @media only screen and (max-width:800px) {
          /* For tablets: */
          .main {
@@ -142,5 +143,11 @@ body {
           body {
              background-color: darkmagenta;
          }
+      }
+       @media only screen and (min-width: 2160px) and (max-width: 3840px) {
+          body {
+             background-color: darkseagreen;
+          }
+
       }
              
